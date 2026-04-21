@@ -127,13 +127,3 @@ Right Option Key = Esc+ (optional)
 </code></pre>
 
 <p>This ensures Option key sends Meta (M-) to tmux.</p>
-
----
-
-# Notes
-
-<ul>
-  <li>Works best on local machine</li>
-  <li>May not work properly over SSH</li>
-  <li>Some keys may conflict with shell shortcuts</li>
-</ul>
