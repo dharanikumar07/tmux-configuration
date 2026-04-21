@@ -89,6 +89,13 @@ Ctrl + Space → w</code></pre>
 
 ---
 
+<p><strong>Tmux configuration files command to write</strong></p>
+<ul>
+  <li><pre><code> nano ~/.tmux.conf </code></pre>
+</li>
+  <li><pre><code> tmux source-file ~/.tmux.conf </code></pre>
+</li>
+</ul>
 
 <p><strong>Note:</strong></p>
 <ul>
