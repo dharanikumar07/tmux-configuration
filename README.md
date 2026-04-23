@@ -2,6 +2,7 @@
 
 <h2>Table of Contents</h2>
 <ul>
+  <li><a href="./TMUX_COMMANDS.md"> Tmux Commands (Full Guide)</a></li>
   <li><a href="#command-1">New Window</a></li>
   <li><a href="#command-2">Next Window</a></li>
   <li><a href="#command-3">Previous Window</a></li>
