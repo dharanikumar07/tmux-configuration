@@ -2,6 +2,7 @@
 
 <h2>Table of Contents</h2>
 <ul>
+  <li><a href="#tmux-commands">Tmux Commands</a></li>
   <li><a href="#command-1">New Window</a></li>
   <li><a href="#command-2">Next Window</a></li>
   <li><a href="#command-3">Previous Window</a></li>
@@ -89,13 +90,49 @@ Ctrl + Space → w</code></pre>
 
 ---
 
-<p><strong>Tmux configuration files command to write</strong></p>
+<h2 id="tmux-commands">Tmux Commands</h2>
+<table>
+  <tr>
+    <th>Command</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code>tmux</code></td>
+    <td>Start a new tmux session</td>
+  </tr>
+  <tr>
+    <td><code>tmux new -s name</code></td>
+    <td>Create a new named session</td>
+  </tr>
+  <tr>
+    <td><code>tmux ls</code></td>
+    <td>List all sessions</td>
+  </tr>
+  <tr>
+    <td><code>tmux attach -t name</code></td>
+    <td>Attach to a session</td>
+  </tr>
+  <tr>
+    <td><code>tmux kill-session -t name</code></td>
+    <td>Kill a session</td>
+  </tr>
+  <tr>
+    <td><code>tmux detach</code></td>
+    <td>Detach from current session</td>
+  </tr>
+</table>
+
+---
+
+<h2 id="command-10">Tmux configuration files command to write</h2>
 <ul>
   <li><pre><code> nano ~/.tmux.conf </code></pre>
 </li>
   <li><pre><code> tmux source-file ~/.tmux.conf </code></pre>
 </li>
 </ul>
+
+---
 
 <p><strong>Note:</strong></p>
 <ul>
