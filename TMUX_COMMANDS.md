@@ -1,5 +1,7 @@
 <h2>TMUX COMMANDS</h2>
-<a style="color:red; float:right;" href="./README.md"> .. /Back to shortcuts</a>
+<p align="right">
+  <a href="./README.md">← Back to shortcuts</a>
+</p>
 <h3>Table of Contents</h3>
 <ul>
   <li><a href="#cmd-1">Start tmux</a></li>
