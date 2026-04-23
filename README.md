@@ -13,7 +13,7 @@
   <li><a href="#command-8">Move Between Panes</a></li>
   <li><a href="#command-9">Kill Pane</a></li>
   <li><a href="#command-10">Kill Window</a></li>
-  <li><a href="#command-11">Configuration</a></li>
+  <li><a href="#command-11">Tmux File Configuration Commands</a></li>
   <li><a href="#command-12">iTerm Setup</a></li>
   <li><a href="#command-13">Ctrl + Space (Prefix Mode)</a></li>
 </ul>
@@ -124,12 +124,20 @@ Ctrl + Space → w</code></pre>
 
 ---
 
-<h2 id="command-10">Tmux configuration files command to write</h2>
+<h2 id="command-11">Tmux configuration files command to write</h2>
 <ul>
   <li><pre><code> nano ~/.tmux.conf </code></pre>
 </li>
   <li><pre><code> tmux source-file ~/.tmux.conf </code></pre>
 </li>
+</ul>
+
+---
+
+<h2 id="command-12">Iterm Setup</h2>
+<ul>
+  <li>Go to iTerm2 → Settings → Profiles → Keys → set Left Option Key = Esc+ (this makes Option behave like Meta for tmux shortcuts).</li>
+  <li>In the same tab, click Key Bindings → + → press Ctrl + Space → set Action = Send Hex Code → enter 0x00 (this prevents ^@ and makes it work properly with tmux).</li>
 </ul>
 
 ---
