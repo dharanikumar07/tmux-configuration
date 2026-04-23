@@ -14,7 +14,7 @@
   <li><a href="#command-10">Kill Window</a></li>
   <li><a href="#command-11">Tmux File Configuration Commands</a></li>
   <li><a href="#command-12">iTerm Setup</a></li>
-  <li><a href="#command-13">Ctrl + Space (Prefix Mode)</a></li>
+  <li><a href="#note">Notes</a></li>
 </ul>
 
 ---
@@ -107,7 +107,7 @@ Ctrl + Space → w</code></pre>
 
 ---
 
-<p><strong>Note:</strong></p>
+<h2 id="note">Note: </h2>
 <ul>
   <li>Option keys are fast but may not work over SSH</li>
   <li>Ctrl + Space works everywhere (SSH-safe)</li>
