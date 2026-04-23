@@ -2,7 +2,6 @@
 
 <h2>Table of Contents</h2>
 <ul>
-  <li><a href="#tmux-commands">Tmux Commands</a></li>
   <li><a href="#command-1">New Window</a></li>
   <li><a href="#command-2">Next Window</a></li>
   <li><a href="#command-3">Previous Window</a></li>
@@ -87,40 +86,6 @@ Ctrl + Space → d</code></pre>
 <p>Close the current window.</p>
 <pre><code>Option + w
 Ctrl + Space → w</code></pre>
-
----
-
-<h2 id="tmux-commands">Tmux Commands</h2>
-<table>
-  <tr>
-    <th>Command</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td><code>tmux</code></td>
-    <td>Start a new tmux session</td>
-  </tr>
-  <tr>
-    <td><code>tmux new -s name</code></td>
-    <td>Create a new named session</td>
-  </tr>
-  <tr>
-    <td><code>tmux ls</code></td>
-    <td>List all sessions</td>
-  </tr>
-  <tr>
-    <td><code>tmux attach -t name</code></td>
-    <td>Attach to a session</td>
-  </tr>
-  <tr>
-    <td><code>tmux kill-session -t name</code></td>
-    <td>Kill a session</td>
-  </tr>
-  <tr>
-    <td><code>tmux detach</code></td>
-    <td>Detach from current session</td>
-  </tr>
-</table>
 
 ---
 
